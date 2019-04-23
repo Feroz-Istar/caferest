@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<signaltype id="1">
+    <key>Brand</key>
+    <signalvalue id="1" value="aa"/>
+    <signalvalue id="2" value="dd"/>
+    <signalvalue id="3" value="cc"/>
+    <signalvalue id="4" value="bb"/>
+    <signalvalue id="5" value="33"/>
+</signaltype>
