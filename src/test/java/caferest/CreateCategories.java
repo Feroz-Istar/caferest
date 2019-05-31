@@ -7,7 +7,6 @@ import java.sql.Statement;
 
 import com.github.javafaker.Faker;
 
-import utils.CafeeDBUtils;
 
 public class CreateCategories {
 
@@ -23,7 +22,7 @@ public class CreateCategories {
 		try {
 			Statement statement = dbConnection.createStatement();
 			
-			for(int i=0;i<100000;i++) {
+			for(int i=0;i<10;i++) {
 				String sql= "INSERT INTO public.categories (created_at, name) VALUES(now(), '"+faker.company().profession()+"')";
 				statement.addBatch(sql);
 

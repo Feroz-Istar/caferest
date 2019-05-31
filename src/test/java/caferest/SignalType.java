@@ -3,7 +3,6 @@ package caferest;
 import java.util.List;
 import javax.xml.bind.annotation.XmlRootElement;
 
-import org.glassfish.jersey.message.XmlHeader;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
