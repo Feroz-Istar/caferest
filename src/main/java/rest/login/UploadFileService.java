@@ -44,12 +44,12 @@ public class UploadFileService {
 		String output = "File uploaded to : " + uploadedFileLocation;
 		System.out.println(output);
 		JsonObject jsonObject = new JsonObject();
-
 		jsonObject.addProperty("success", true);
 		jsonObject.addProperty("status", "success");
 		jsonObject.addProperty("filename", fileDetail.getFileName());
 		return Response.status(200).entity(jsonObject.toString()).header("Access-Control-Allow-Origin", "*")
 							.header("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT").allow("OPTIONS").build();
+		
 
 	}
 
